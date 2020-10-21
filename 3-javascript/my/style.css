@@ -4,11 +4,16 @@ body {
 .bold {
 	font-weight: bold;
 }
+.container {
+	max-width: 100%;
+	min-height: 97vh;
+	border: 1px solid red;
+}
 #shape {
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 	background-color: red;
-	display: none;
-	position: relative;
+	display: block;
+	
 
 }
