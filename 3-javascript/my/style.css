@@ -1,19 +1,64 @@
 body {
 	font-family: sans-serif;
+	background-color: rgb(5, 0, 0);
+	color: yellow;
 }
 .bold {
 	font-weight: bold;
 }
 .container {
-	max-width: 100%;
-	min-height: 97vh;
+	max-width: 800px;
+	height: 25vh;
 	border: 1px solid red;
+	margin: 0 auto;
+}
+.container_game {
+	max-width: 800px;
+	height: 70vh;
+	border: 1px solid red;
+	margin: 0 auto;
+	position: relative;
 }
 #shape {
 	width: 100px;
 	height: 100px;
 	background-color: red;
 	display: block;
-	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#timeTaken {
+	color: red;
+	font-weight: bold;
+}
 
+@media (max-width: 450px) {
+	.container h1 {
+		font-size: 25px;
+	}
+	.container p {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 330px) {
+	.container h1 {
+		font-size: 18px;
+	}
+	.container p {
+		font-size: 12px;
+	}
+	h1 + p {
+		font-size: 16px;
+	}
+}
+
+@media screen and (orientation: landscape) {
+	.container h1 {
+		font-size: 12px;
+	}
+	.container p {
+		font-size: 10px;
+	}
 }
