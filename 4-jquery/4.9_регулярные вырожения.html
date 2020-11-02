@@ -16,13 +16,14 @@
         
         <script type="text/javascript">
             
-            var regex = /e/g;
-            
-            var string = "Regex is great!";
+            var regex = /e/ig
+				// i не учитывает регистр при поиске
+				// g - выведет все совпадения в строке
+            var string = "RegEx is grEat!";
             
             var result = string.match(regex);
             
-            alert(result);
+            console.log(result);
         
         </script>
         
