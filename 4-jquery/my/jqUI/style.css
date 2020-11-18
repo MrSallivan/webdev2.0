@@ -16,4 +16,17 @@ p {
 	height: 100px;
 	background-color: red;
 }
+.small {
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+	color: #fff;
+}
+.big {
+	width: 300px;
+	height: 300px;
+	background-color: red;
+}
+.blue {
+	background-color: rgb(131, 213, 238);
 }
