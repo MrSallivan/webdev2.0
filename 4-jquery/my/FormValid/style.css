@@ -27,3 +27,6 @@ label {
 	width: 130px;
 	margin-left: 200px;
 }
+.error_massege {
+	display: none;
+}

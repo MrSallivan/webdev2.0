@@ -14,5 +14,12 @@ $('#submitButton').click(function() {
 	if ( $.isNumeric($('#phone').val()) == false) {
 		errorMessage += '<p>phone is not number</p>'
 	}
-	
+	if ( $('#password').val() !== $('passwordConf').val() ) {
+		errorMessage += '<p>passwords do not match </p>'
+	}
+	if ( errorMessage != '') {
+		$('.error_massege').html(errorMessage)
+		$('.error_massege').css({'display':'block', 'border':'1px solid red'})
+	}
+
 });
