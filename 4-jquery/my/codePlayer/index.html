@@ -12,11 +12,17 @@
 	<div id="header">
 		<div id="logo">CodePlayer</div>
 		<div id="buttonContainer">
-			<div class="toggleButton" id="html">html</div>
+			<div class="toggleButton active" id="html">html</div>
 			<div class="toggleButton" id="css">css</div>
 			<div class="toggleButton" id="javascript">JS</div>
-			<div class="toggleButton" id="output">Output</div>
+			<div class="toggleButton active" id="output">Output</div>
 		</div>
+	</div>
+	<div id="bodyContainer">
+		<textarea id="htmlPanel" class="panel">Hello World</textarea>
+		<textarea id="cssPanel" class="panel hidden">p{color:green;}</textarea>
+		<textarea id="javascriptPanel" class="panel hidden">alert('Hi there!')</textarea>
+		<iframe src="" id="outputPanel" class="panel"></iframe>
 	</div>
 
 
