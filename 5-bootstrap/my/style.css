@@ -1,0 +1,27 @@
+.jumbotron {
+	background: url(../background.jpg) 0 0/100% 100% no-repeat;
+	text-align: center;
+}
+#inlineFormInputGroupUsername2 {
+	width: 250px;
+}
+.form-inline {
+	justify-content: center;
+}
+.fas, .fab {
+	margin: 5px;
+}
+#footer {
+	background-color: aqua;
+	padding-top: 50px;
+	margin-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.imgFooter {
+	margin: 0 auto;
+	width: 400px;
+}
+p.imgFooter a img {
+	width: 100%;
+}
